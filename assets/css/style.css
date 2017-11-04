@@ -92,6 +92,9 @@ html {
         margin: 0;
         border-bottom: 1px solid #EAEAEB;
     }
+    .navSectionWrapper > h1 {
+        font-size: px;
+    }
 } 
 
 .heroSection {
@@ -103,7 +106,7 @@ html {
     padding: 1em 0 7em 0;
 }
 .heroSectionWrapper h1 {
-    padding: 1em;
+    padding: .5em;
     text-align: center;
     font-size: 50px;
     font-weight: 200;
@@ -168,7 +171,7 @@ input:last-child {
     outline: none;
     border: 2px solid #fff;
     float: right;
-    margin-right: -1em;
+    margin-right: -2.3em;
 }
 @media only screen and (max-width: 560px){
     .heroContent {
@@ -184,6 +187,17 @@ input:last-child {
     .heroContentRight > form > input:not(:last-child) {
         padding-left: 1em;
     }
+}
+@media only screen and (max-width: 700px){
+    .heroSectionWrapper h1 {
+        padding: .2em;
+    }
+    .heroSectionWrapper h1 {
+        font-size: 30px;
+    }
+    /* .input:last-child {
+        margin-right: -1em;
+    } */
 }
 
 
@@ -275,7 +289,21 @@ input:last-child {
         margin: 1em 0;
     }
 }
-
+@media only screen and (max-width: 700px){ 
+    .votingAction h2 {
+        font-size: 25px;
+        font-weight: 200;
+        line-height: 40px;
+    }
+    .votingInfoItem > i {
+        font-size: 50px;
+    }
+    .votingInfoItem > h2 {
+        font-size: 25px;
+        font-weight: 300;
+        line-height: 70px;
+    }
+}
 
 .footerSection {
     text-align: center;
