@@ -195,9 +195,9 @@ input:last-child {
     .heroSectionWrapper h1 {
         font-size: 30px;
     }
-    /* .input:last-child {
-        margin-right: -1em;
-    } */
+    input:last-child {
+        margin-right: -1.3em;
+    }
 }
 
 
