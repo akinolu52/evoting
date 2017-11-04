@@ -10,6 +10,6 @@ Fork & star(&#x269D;)!
 
 Made with &#x2764;
 
-Demo on coming up
+[Demo](https://akinolu52.github.io/evoting/index.html)
 
 *By Akinyemi Emmanuel* - [WebEvolvers](https://webevolvers.com)
