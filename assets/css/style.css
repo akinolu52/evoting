@@ -1,0 +1,293 @@
+html {
+    font-weight: 400;
+    font-family: "Source Sans Pro", sans-serif;;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+.clearfix:after {
+    display: block;
+    content: ' ';
+    clear: both;
+}
+.wrapper {
+    width: 100%;
+    background-size: contain;
+    height: 100%;
+    background: #000 url("../img/bg.jpg") no-repeat center;
+}
+
+.navSection {
+    width: 100%;
+    line-height: 70px;
+}
+.navSectionWrapper {
+    width: 80%;
+    margin: auto;
+}
+.navSectionWrapper > ul {
+    list-style: none;
+    display: inline;
+    float: right;
+}
+.navSectionWrapper > ul > li {
+    display: inline-block;
+}
+
+.navSectionWrapper > ul > li > a {
+    text-decoration: none;
+    color: #455A64;
+    margin: 0 1em;
+}
+.navSectionWrapper > h1 {
+    float: left;
+    font-size: 25px;
+    font-weight: normal;
+}
+.navSectionWrapper > h1 span, .heroContentLeft > h1 > strong {
+    color: rgb(65, 46, 36);
+    font-weight: 700;
+}
+.nav {
+    float: right;
+    display: none;
+}
+.nav div {
+    height: 5px;
+    background-color: #fff;
+    margin: 5px 0px;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.nav:hover div {
+    width: 30px;
+}
+.one {
+    width: 25px;
+}
+.two {
+    width: 15px;
+}
+.three {
+    width: 25px;
+}
+@media only screen and (max-width: 560px){
+    .nav {
+        display: block;
+        cursor: pointer;
+        padding-top: 20px;
+    }
+    .navSectionWrapper > ul {
+        text-align: center;
+        width: 100%;
+        display: none; 
+    }
+    .navSectionWrapper > ul > li:not(:last-child) {
+        display: block;
+        margin: 0;
+        border-bottom: 1px solid #EAEAEB;
+    }
+} 
+
+.heroSection {
+    width: 100%;
+}
+.heroSectionWrapper {
+    width: 80%;
+    margin: auto;
+    padding: 1em 0 7em 0;
+}
+.heroSectionWrapper h1 {
+    padding: 1em;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: #455A6A;
+    margin: 1em 0 1em 0;
+    line-height: 36px; 
+}
+.heroContent {
+    margin: 2em 0 2em 0;
+}
+.heroContentLeft {
+    float: left;
+    width: 64%;
+}
+.heroContentRight {
+    float: right;
+    width: 36%; 
+}
+.heroContentRight > form {
+    text-align: center;
+    clear: right;
+    margin: 0 auto;
+    width: 80%;
+}
+.heroContentRight > form > input:not(:last-child) {
+    width: 100%;
+    margin: 0.5em 0;
+    border: 2px solid #fff;
+    line-height: 40px;
+    padding: 0 1em;
+    outline: none;
+    background: #c8c3bf;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+::-moz-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+:-ms-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+:-moz-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+input:last-child {
+    background-color: rgb(65, 46, 36);
+    font-weight: 600;
+    font-size: 15px;
+    color: #fff;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+    outline: none;
+    border: 2px solid #fff;
+    float: right;
+    margin-right: -1em;
+}
+@media only screen and (max-width: 560px){
+    .heroContent {
+        margin: 0;
+    }
+    .heroContentRight, .heroContentLeft {
+        width: 100%;
+    }
+    .heroContentRight > form > input:not(:last-child),
+    .heroSectionWrapper h1 {
+        padding: 0;
+    }
+    .heroContentRight > form > input:not(:last-child) {
+        padding-left: 1em;
+    }
+}
+
+
+.votingInfoSection {
+    width: 100%;
+    background: url("../img/bg2.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+}
+.votingInfoWrapper {
+    width: 70%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: 0 auto;
+}
+.votingInfoItem {
+    display: flex;
+    flex-direction: column;
+    flex: 11 auto;
+    margin: 6%;
+}
+.votingInfoItem > i {
+    font-size: 100px;
+    color: rgb(65, 46, 36);
+    text-align: center;
+    width: 100%;
+}
+.votingInfoItem > h2 {
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    line-height: 100px;
+}
+.votingAction {
+    padding: 2em 0 1em 0;
+    text-align: center;
+}
+.votingAction h2 {
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.socialInfo {
+    width: 100%;
+    clear: both;
+}
+.socialInfoWrapper {
+    text-align: center;
+    padding: 0 0 1.5em 0;
+}
+.linkItem {
+    margin: 0 1em;
+    display: inline-block;
+    width: 300px;
+    padding: 1em;
+    border: 1px solid rgb(65, 46, 36);
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.10);
+    -webkit-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.10);
+    -moz-box-shadow: 0px 0px 11px 0px rgba(0, 0, 0, 0.10);
+}
+.linkItem a {
+    margin: 0.5em;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 70px;
+    color: rgb(65, 46, 36);
+}
+.linkItem p {
+    line-height: 70px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 560px){
+    .votingInfoWrapper {
+        width: 100%;
+    }
+    .votingInfoItem {
+        flex: 50 auto;
+        margin: 0 auto;
+        padding: 10% 0 7% 0;
+    }
+    .linkItem {
+        margin: 1em 0;
+    }
+}
+
+
+.footerSection {
+    text-align: center;
+    color: #FFF;
+    background-color: rgb(65, 46, 36);
+    padding: 1em;
+}
+.footerSection h4 {
+    font-size: 25px;
+    font-weight: normal;
+    line-height: 70px;
+}
+.footerSection h4 span {
+    font-weight: 700;
+}
