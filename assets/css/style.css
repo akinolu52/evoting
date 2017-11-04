@@ -125,11 +125,21 @@ html {
     float: right;
     width: 36%; 
 }
-.heroContentRight > form {
+.heroContentRight > form, 
+.heroContentOptions {
     text-align: center;
     clear: right;
     margin: 0 auto;
     width: 80%;
+}
+.heroContentOptions > label {
+    line-height: 20px;
+    font-size: 25px;
+    padding: 0em .2em;
+}
+.heroContentOptions > input[type="radio"] {
+    width: 20px;
+    height: 20px;
 }
 .heroContentRight > form > input:not(:last-child) {
     width: 100%;
@@ -174,7 +184,8 @@ html {
     width: 100%;
     width: calc(100% + 2em);
 }
-input:last-child {
+/* :not(div.heroContentOptions), */
+input[type="submit"] {
     background-color: rgb(65, 46, 36);
     font-weight: 600;
     font-size: 15px;
