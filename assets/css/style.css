@@ -296,12 +296,25 @@ input:last-child {
         line-height: 40px;
     }
     .votingInfoItem > i {
-        font-size: 50px;
+        font-size: 35px;
     }
     .votingInfoItem > h2 {
         font-size: 25px;
         font-weight: 300;
         line-height: 70px;
+    }
+    .linkItem {
+        width: 250px;
+    }
+    .linkItem p {
+        line-height: 40px;
+        font-size: 20px;
+    }
+    .linkItem a {
+        font-size: 25px;
+        font-weight: 300;
+        margin: 0.4em;
+        line-height: 50px;
     }
 }
 
