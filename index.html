@@ -36,11 +36,20 @@
                         <h1>Vote for the - <strong>right</strong> person !</h1>
                     </div>
                     <div class="heroContentRight">
-                        <form action="post" action="">
-                            <input type="text" placeholder="Full name">
-                            <input type="text" placeholder="Matric Number">
-                            <input type="password" placeholder="Email Address">
-                            <input type="submit" value="Register">
+                        <form method="post" action="">
+                            <input type="text" name="name" placeholder="Full name">
+                            <input type="text" name="matric" placeholder="Matric Number">
+                            <input type="password" name="email" placeholder="Email Address">
+                            <select name="department">
+                                <option>Choose Department</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Fine Art">Fine Art</option>
+                                <option value="Food Technology">Food Technology</option>
+                            </select>
+                            <input type="submit" value="Register" name="register">
+                        </form>
+                        <form action="" action="">
+                            
                         </form>
                     </div>
                 </div>                
@@ -79,6 +88,9 @@
                 <div class="linkItem">
                     <a target="_blank" href="https://webevolvers.com" title="Check WebEvolvers website">
                         <i class="os-icon os-icon-text-input"></i>
+                    </a>
+                    <a target="mailto:akinolu52@gmail.com" href="https://webevolvers.com" title="Send WebEvolvers an email">
+                        <i class="os-icon os-icon-email-2-at2"></i>
                     </a>
                     <a target="_blank" href="https://facebook.com/webevolvers" title="Check our Facebook profile">
                         <i class="os-icon os-icon-facebook"></i>

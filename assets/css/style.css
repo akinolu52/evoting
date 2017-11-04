@@ -161,6 +161,19 @@ html {
     font-size: 14px;
     font-weight: 600;
 }
+.heroContentRight > form > select {
+    display: block;
+    margin: 0.5em 0;
+    border: 2px solid #fff;
+    line-height: 40px;
+    padding: .7em 1em;
+    outline: none;
+    background: #c8c3bf;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    width: calc(100% + 2em);
+}
 input:last-child {
     background-color: rgb(65, 46, 36);
     font-weight: 600;
@@ -187,6 +200,9 @@ input:last-child {
     .heroContentRight > form > input:not(:last-child) {
         padding-left: 1em;
     }
+    .heroContentRight > form > select {
+        width: 106%;
+    }
 }
 @media only screen and (max-width: 700px){
     .heroSectionWrapper h1 {
@@ -197,9 +213,8 @@ input:last-child {
     }
     input:last-child {
         margin-right: -1.3em;
-    }
+    }    
 }
-
 
 .votingInfoSection {
     width: 100%;
