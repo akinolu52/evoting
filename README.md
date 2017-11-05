@@ -1,6 +1,6 @@
 # An E-voting Application
 
-> A simple e-voting application in **php** - _*a node js framework*_
+> A simple e-voting application in **php** - _*still thinking about the framework to use*_
 
 ****Still in development:****
 
