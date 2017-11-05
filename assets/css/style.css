@@ -372,7 +372,7 @@ input[type="submit"] {
 .cards {
     width: 80%;
     margin: auto;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     padding: 2em;
     display: -webkit-flex;
     display: -moz-flex;
