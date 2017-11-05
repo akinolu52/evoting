@@ -24,7 +24,7 @@
                     <div class="three"></div>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="#">Candidates</a></li>
+                    <li><a href="candidates.html">Candidates</a></li>
                 </ul>
             </div>
         </div>
@@ -37,13 +37,13 @@
                     </div>
                     <div class="heroContentRight">
                         <div class="heroContentOptions">
-                            <input type="radio" id="login" name="option">
+                            <input type="radio" id="loginRadio" name="option">
                             <label>Login</label>
-                            <input type="radio" id="register" name="option" checked>
+                            <input type="radio" id="registerRadio" name="option" checked>
                             <label>Register</label>                            
                         </div>
                         
-                        <form method="post" action="">
+                        <form method="post" id="form-register" action="">
                             <input type="text" name="name" placeholder="Full name">
                             <input type="text" name="matric" placeholder="Matric Number">
                             <input type="password" name="email" placeholder="Email Address">
@@ -55,8 +55,10 @@
                             </select>
                             <input type="submit" value="Register" name="register">
                         </form>
-                        <form action="" action="">
-                            
+                        <form id="form-login" method="post" action="">
+                            <input type="text" name="matric" placeholder="Matric Number">
+                            <input type="text" name="key" placeholder="Pass Key">
+                            <input type="submit" value="Login" name="login">
                         </form>
                     </div>
                 </div>                
