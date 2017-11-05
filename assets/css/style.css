@@ -44,7 +44,9 @@ html {
     color: #455A64;
     margin: 0 1em;
 }
-.navSectionWrapper > h1 {
+.navSectionWrapper > h1 > a {
+    color: #455A64;
+    text-decoration: none;
     float: left;
     font-size: 25px;
     font-weight: normal;

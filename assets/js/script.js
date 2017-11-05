@@ -12,9 +12,9 @@ $(document).ready(function() {
 	});
 
 	$('.nav').click(function() {
+		// $(this).toggleClass('nav')
+		// $(this).toggleClass('nav-hover')
 		$('.nav-menu').toggle();
 	});
 
-
-
-})
+});
