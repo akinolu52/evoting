@@ -351,7 +351,9 @@ input[type="submit"] {
     background-color: rgb(65, 46, 36);
     padding: 1em;
 }
-.footerSection h4 {
+.footerSection h4 > a {
+    text-decoration: none;
+    color: #fff;
     font-size: 25px;
     font-weight: normal;
     line-height: 70px;
